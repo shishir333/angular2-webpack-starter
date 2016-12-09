@@ -3,6 +3,7 @@
  */
 import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
+import {ROUTER_PROVIDERS} from '@angular/router';
 import { AppComponent } from './app.component';
 @NgModule({
     imports: [
