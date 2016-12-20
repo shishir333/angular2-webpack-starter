@@ -1,13 +1,17 @@
-import {Http} from '@angular/http';
 import {Injectable} from '@angular/core';
-
 
 @Injectable()
 
 export class DemoService
 {
-    constructor(private _http: Http)
+    constructor()
     {
-        _http.get('');
+        
+    }
+
+    getVariable () : Number
+    {
+        console.log("Object created");
+        return 10;
     }
 }
